@@ -157,3 +157,6 @@ Django Peng - pjt73651@email.com
 2.1 ai translator中，添加对其他语言和翻译的支持，支持英语翻中文，英语翻韩语，中文翻英语，中文翻韩语。
 默认英语翻译中文
 
+#### 3. 扩展langchain chains
+3.1 扩展chains，使其支持生物、计算机和汉语文学老师等学科的提示词模板及对应 Chains问答。
+
