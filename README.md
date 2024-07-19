@@ -152,16 +152,16 @@ Django Peng - pjt73651@email.com
 1.1 上传自己手写的图片到images文件夹，可命名为gpt-4v.jpg；
 1.2 修改query_base64_image_description的方法描述，分析gpt-4v.jpg图片；
 1.3 输出分析结果，并使用函数对输出进行渲染，渲染成Markdown格式使结果更易读；
-
+[commit](https://github.com/DjangoPeng/openai-quickstart/commit/542cf92f548c0c8ed104867bf6f9f92c87aef85d)
 #### 2. ai translator的使用
 2.1 ai translator中，添加对其他语言和翻译的支持，支持英语翻中文，英语翻韩语，中文翻英语，中文翻韩语。
 默认英语翻译中文
-
+[commit](https://github.com/DjangoPeng/openai-quickstart/commit/cfa341d6e5d0dd8513c3cf5d1500e567bcc37c22)
 #### 3. 扩展langchain chains
 3.1 扩展chains，使其支持生物、计算机和汉语文学老师等学科的提示词模板及对应 Chains问答。
-
+[commit](https://github.com/DjangoPeng/openai-quickstart/commit/f40682566691eaa584a5213f95c294ba0747ef87)
 #### 4. 实战sales chatbot
 4.1 自行生成一个新的产品，可搜索使用一个产品的行业数据，也可自建一个产品的真实数据。参考“房产销售聊天机器人”，开发一个“车辆销售聊天机器人”；
 4.2 在"车辆销售聊天机器人"中，使用向量数据库进行检索回答，如果向量数据库检索不到问题答案时，能够通过一个prompt来回答这个问题，而不是直接告诉用户我是一个AI机器人。
 4.3 请在openai-quickstart/langchain/sales_chatbot同级目录，新建一个"car_sales_chatbot"文件夹，并以这个文件夹作为该实战项目的目录。
-
+[commit](https://github.com/DjangoPeng/openai-quickstart/commit/aa5e6b5fccbc41b9c14233260047eb2cc25fad59)
